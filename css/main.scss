@@ -1,9 +1,12 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,17 +40,16 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;

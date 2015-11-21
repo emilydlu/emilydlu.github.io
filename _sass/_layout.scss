@@ -1,6 +1,47 @@
 /**
  * Site header
  */
+ .wrap{
+    max-width: 1149px;
+    display: table;
+    padding-left: 30px;
+    }
+.wrap:before{
+    display: table;
+}
+.intro{
+    width: 40%;
+    float: left;
+    margin-top: 50px;}
+    @media screen and (max-width: 885px){
+        .intro{
+            width: 100%;
+        }
+    }
+
+.page-header .wrap .intro h1{
+    font: initial;
+}
+.page-header .wrap .intro h2 {
+    border-top: 3px solid $grey-color; 
+    border-top-style: double;
+    padding-top: 10px;
+    border-bottom: 1px solid $grey-color;
+    padding-bottom: 10px;
+    font: initial;
+    margin-right: 30px;
+}
+
+.my-avatar{
+    width: 50%;
+    float:right;
+    overflow: hidden;}
+    @media screen and (max-width: 885px) {
+    .my-avatar {
+        width: 100%;
+        float: none;}
+    } 
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -167,10 +208,15 @@
 /**
  * Page content
  */
+
+
 .page-content {
     padding: $spacing-unit 0;
 }
-
+.page-header{
+    background-color: rgb(225, 209, 184);
+    text-align: center;
+}
 .page-heading {
     font-size: 20px;
 }
