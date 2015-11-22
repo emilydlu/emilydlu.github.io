@@ -147,10 +147,14 @@ pre {
 /**
  * Site header
  */
+.full-wrapper {
+  min-width: 400px; }
+
 .wrap {
   max-width: 1149px;
   display: table;
-  padding-left: 30px; }
+  padding-left: 30px;
+  padding-top: 250px; }
 
 .wrap:before {
   display: table; }
@@ -160,7 +164,8 @@ pre {
   float: left;
   margin-top: 100px;
   padding-left: 27px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  margin-top: -137px; }
 
 @media screen and (max-width: 1157px) {
   .intro {
@@ -177,23 +182,23 @@ pre {
   font: initial;
   margin-right: 40px; }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1157px) {
   .page-header .wrap .intro h2 {
-    margin-left: 250px;
-    margin-right: 250px; } }
+    margin-left: 120px;
+    margin-right: 120px; } }
 .page-header .wrap .intro p {
   /*    max-width: ;
   */ }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1157px) {
   .page-header .wrap .intro p {
-    margin-left: 250px;
-    margin-right: 250px; } }
+    margin-left: 120px;
+    margin-right: 120px; } }
 .my-avatar {
   width: 49%;
   float: right;
   overflow: hidden;
-  margin-top: -289px; }
+  margin-top: -218px; }
 
 @media screen and (max-width: 1164px) {
   .my-avatar {
@@ -266,7 +271,7 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+  padding: 16px 0;
   text-align: center; }
 
 .footer-heading {
@@ -283,7 +288,7 @@ pre {
   color: #828282; }
 
 .footer-col {
-  margin-bottom: 15px;
+  margin-bottom: -29px;
   padding-left: 15px; }
 
 .footer-col-1 {
@@ -511,6 +516,3 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
-
-/*@import "bootstrap";
-*/
