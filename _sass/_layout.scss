@@ -10,18 +10,17 @@
     display: table;
 }
 .intro{
-    width: 40%;
+    width: 50%;
     float: left;
-    margin-top: 50px;}
-    @media screen and (max-width: 885px){
+    margin-top: 130px;
+    padding-right: 30px;
+    padding-left: 50px;}
+    @media screen and (max-width: 936px){
         .intro{
             width: 100%;
         }
     }
 
-.page-header .wrap .intro h1{
-    font: initial;
-}
 .page-header .wrap .intro h2 {
     border-top: 3px solid $grey-color; 
     border-top-style: double;
@@ -29,14 +28,15 @@
     border-bottom: 1px solid $grey-color;
     padding-bottom: 10px;
     font: initial;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .my-avatar{
     width: 50%;
     float:right;
-    overflow: hidden;}
-    @media screen and (max-width: 885px) {
+    overflow: hidden;
+    margin-top: 224px;}
+    @media screen and (max-width: 936px) {
     .my-avatar {
         width: 100%;
         float: none;}
