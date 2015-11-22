@@ -23,7 +23,6 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
-    background-color: rgb(225, 209, 184);
 }
 
 
@@ -93,10 +92,10 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: rgba(124, 138, 142, 0.42);
     }
 
     &:hover {

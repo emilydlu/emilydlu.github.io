@@ -19,8 +19,7 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  background-color: #e1d1b8; }
+  font-kerning: normal; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -68,9 +67,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #2a7ae2;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:visited {
-    color: #1756a9; }
+    color: rgba(124, 138, 142, 0.42); }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -157,15 +156,18 @@ pre {
   display: table; }
 
 .intro {
-  width: 50%;
+  width: 45%;
   float: left;
-  margin-top: 130px;
-  padding-right: 30px;
-  padding-left: 50px; }
+  margin-top: 100px;
+  padding-left: 27px;
+  padding-right: 50px; }
 
-@media screen and (max-width: 936px) {
+@media screen and (max-width: 1157px) {
   .intro {
-    width: 100%; } }
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px; } }
 .page-header .wrap .intro h2 {
   border-top: 3px solid #828282;
   border-top-style: double;
@@ -175,14 +177,27 @@ pre {
   font: initial;
   margin-right: 40px; }
 
+@media screen and (max-width: 1100px) {
+  .page-header .wrap .intro h2 {
+    margin-left: 250px;
+    margin-right: 250px; } }
+.page-header .wrap .intro p {
+  /*    max-width: ;
+  */ }
+
+@media screen and (max-width: 1100px) {
+  .page-header .wrap .intro p {
+    margin-left: 250px;
+    margin-right: 250px; } }
 .my-avatar {
-  width: 50%;
+  width: 49%;
   float: right;
   overflow: hidden;
-  margin-top: 224px; }
+  margin-top: -289px; }
 
-@media screen and (max-width: 936px) {
+@media screen and (max-width: 1164px) {
   .my-avatar {
+    margin-top: -20px;
     width: 100%;
     float: none; } }
 .site-header {
@@ -251,7 +266,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px 0;
+  text-align: center; }
 
 .footer-heading {
   font-size: 18px;
@@ -264,11 +280,9 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
-  margin-left: -15px; }
+  color: #828282; }
 
 .footer-col {
-  float: left;
   margin-bottom: 15px;
   padding-left: 15px; }
 

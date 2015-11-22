@@ -10,14 +10,18 @@
     display: table;
 }
 .intro{
-    width: 50%;
+    width: 45%;
     float: left;
-    margin-top: 130px;
-    padding-right: 30px;
-    padding-left: 50px;}
-    @media screen and (max-width: 936px){
+    margin-top: 100px;
+    padding-left: 27px;
+    padding-right: 50px;
+}
+    @media screen and (max-width: 1157px){
         .intro{
             width: 100%;
+            margin-top: 20px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
 
@@ -30,14 +34,31 @@
     font: initial;
     margin-right: 40px;
 }
+    @media screen and (max-width: 1100px){
+        .page-header .wrap .intro h2{
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+    }
+
+.page-header .wrap .intro p {
+/*    max-width: ;
+*/}
+    @media screen and (max-width: 1100px){
+        .page-header .wrap .intro p{
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+}
 
 .my-avatar{
-    width: 50%;
+    width: 49%;
     float:right;
     overflow: hidden;
-    margin-top: 224px;}
-    @media screen and (max-width: 936px) {
+    margin-top: -289px;}
+    @media screen and (max-width: 1164px) {
     .my-avatar {
+        margin-top: -20px;
         width: 100%;
         float: none;}
     } 
@@ -134,13 +155,13 @@
 }
 
 
-
 /**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
 }
 
 .footer-heading {
@@ -157,12 +178,10 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
