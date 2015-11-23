@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #2a7ae2;
-  text-decoration: underline; }
+  text-decoration: none; }
   a:visited {
     color: rgba(124, 138, 142, 0.42); }
   a:hover {
@@ -186,9 +186,20 @@ pre {
   .page-header .wrap .intro h2 {
     margin-left: 120px;
     margin-right: 120px; } }
+.page-header .wrap .intro h1 {
+  font-weight: 800;
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin-left: -20px;
+  font-family: initial;
+  margin-bottom: -8px; }
+
+@media screen and (max-width: 1157px) {
+  .page-header .wrap .intro h1 {
+    margin-left: 0px; } }
 .page-header .wrap .intro p {
-  /*    max-width: ;
-  */ }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 @media screen and (max-width: 1157px) {
   .page-header .wrap .intro p {
@@ -324,7 +335,7 @@ pre {
   padding: 30px 0; }
 
 .page-header {
-  background-color: #e1d1b8;
+  background-color: #E1CFB8;
   text-align: center; }
 
 .page-heading {

@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: underline;
+    text-decoration: none;
 
     &:visited {
         color: rgba(124, 138, 142, 0.42);

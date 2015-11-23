@@ -46,9 +46,22 @@
         }
     }
 
+.page-header .wrap .intro h1{
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-left: -20px;
+    font-family: initial;
+    margin-bottom: -8px;
+}
+    @media screen and (max-width: 1157px){
+        .page-header .wrap .intro h1{
+        margin-left: 0px;}
+    }
 .page-header .wrap .intro p {
-/*    max-width: ;
-*/}
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
     @media screen and (max-width: 1157px){
         .page-header .wrap .intro p{
             margin-left: 120px;
@@ -238,7 +251,7 @@
     padding: $spacing-unit 0;
 }
 .page-header{
-    background-color: rgb(225, 209, 184);
+    background-color: #E1CFB8;
     text-align: center;
 }
 .page-heading {
