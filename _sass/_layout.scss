@@ -8,8 +8,14 @@
     max-width: 1149px;
     display: table;
     padding-left: 30px;
-    padding-top: 250px;
+    padding-top: 230px;
     }
+    @media screen and (max-width: 1157px){
+        .wrap{
+            padding-top: 45px;
+        }
+    }
+        
 .wrap:before{
     display: table;
 }
@@ -83,11 +89,13 @@
     width: 49%;
     float:right;
     overflow: hidden;
+    height: 402px;
     margin-top: -85px;}
     @media screen and (max-width: 1164px) {
     .my-avatar {
         margin-top: -20px;
         width: 100%;
+        height: inherit;
         float: none;}
     } 
 
