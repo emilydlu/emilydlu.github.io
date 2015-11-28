@@ -100,8 +100,12 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: bold;
     }
+}
+
+.greylink{
+    color: #808080;
 }
 
 
