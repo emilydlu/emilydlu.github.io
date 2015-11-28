@@ -73,7 +73,7 @@ a {
     color: rgba(124, 138, 142, 0.42); }
   a:hover {
     color: #111;
-    text-decoration: bold; }
+    text-decoration: g; }
 
 .greylink {
   color: #808080; }
