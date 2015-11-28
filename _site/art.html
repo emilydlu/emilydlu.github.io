@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" type = "image/png" href="/images/favicon.ico">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+   <link rel="stylesheet" href="css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<!--  CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <!--JS-->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+</head>
+<header class="navbar">
+<h2 class="navbar-header">Emily</h2>  
+<ul class="home">
+  <li>
+   <a href="/"> Home </a> 
+   </li>
+</ul>
+</header>
+<body>
+  <table>
+    <tr>
+      <td>
+        <img class = "materialboxed regsize" src="/images/architecture.jpg"/>
+      </td>
+      <td>
+         <img class = "materialboxed regsize" src="/images/backyard.jpg"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class = "materialboxed regsize" src="/images/boot.jpg"/>
+      </td>
+      <td>
+        <img class = "materialboxed face" src="/images/face.jpg"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class = "materialboxed regsize" src="/images/forest.jpg"/>
+      </td>
+      <td>
+        <img class = "materialboxed regsize" src="/images/gated.jpg"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img class = "materialboxed regsize" src="/images/jellyfish.jpg"/>
+      </td>
+      <td>
+        <img class = "materialboxed regsize" src="/images/myhome.jpg"/>
+      </td>
+    </tr>
+      <td>
+        <img class = "materialboxed regsize" src="/images/nudestanding.jpg"/>
+      </td>
+      <td>
+        <img class = "materialboxed regsize" src="/images/oilreflect.jpg"/>
+      </td>
+    <tr>
+</body> 
+</html>
+<script>
+   $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+</script>

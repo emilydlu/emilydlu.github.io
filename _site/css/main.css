@@ -229,6 +229,17 @@ pre {
     width: 100%;
     height: inherit;
     float: none; } }
+.logo {
+  display: block;
+  float: left;
+  padding-left: 40px; }
+
+.home {
+  display: block;
+  float: right;
+  padding-top: 30px;
+  padding-right: 30px; }
+
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
@@ -290,6 +301,24 @@ pre {
         .site-nav .page-link:not(:last-child) {
           margin-right: 0; } }
 
+/**
+ * Art page
+*/
+.add-margin {
+  margin-left: 30px; }
+
+.regsize {
+  height: inherit;
+  width: inherit; }
+
+.face {
+  height: 500px;
+  width: 400px; }
+
+@media screen and (max-width: 886px) {
+  .face {
+    height: inherit;
+    width: inherit; } }
 /**
  * Site footer
  */
@@ -4262,7 +4291,8 @@ tbody.collapse.in {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent; }
+  border: 1px solid transparent;
+  background-color: #D3D3D3; }
   .navbar:before, .navbar:after {
     content: " ";
     display: table; }
@@ -4272,14 +4302,16 @@ tbody.collapse.in {
     .navbar {
       border-radius: 4px; } }
 
-.navbar-header:before, .navbar-header:after {
-  content: " ";
-  display: table; }
-.navbar-header:after {
-  clear: both; }
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left; } }
+.navbar-header {
+  margin-left: 40px; }
+  .navbar-header:before, .navbar-header:after {
+    content: " ";
+    display: table; }
+  .navbar-header:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .navbar-header {
+      float: left; } }
 
 .navbar-collapse {
   overflow-x: visible;

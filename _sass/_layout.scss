@@ -99,6 +99,18 @@
         float: none;}
     } 
 
+.logo {
+    display:block;
+    float:left;
+    padding-left:40px;
+}
+.home {
+    display:block;
+    float:right;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -191,6 +203,26 @@
 }
 
 
+/**
+ * Art page
+*/
+
+.add-margin{
+    margin-left: 30px;
+}
+.regsize{
+    height: inherit;
+    width: inherit;  
+}
+.face{
+    height:500px;
+    width:400px;}
+    @media screen and (max-width: 886px){
+        .face{
+            height: inherit;
+            width: inherit;
+        }
+    }
 /**
  * Site footer
  */
