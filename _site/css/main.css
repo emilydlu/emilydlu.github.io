@@ -166,9 +166,6 @@ pre {
 .wrap:before {
   display: table; }
 
-.page-title {
-  text-align: center; }
-
 .intro {
   width: 51%;
   float: left;
@@ -8084,6 +8081,12 @@ nav,
 section,
 summary {
   display: block; }
+
+/**
+ * Page header display
+ */
+.page-title {
+  text-align: center; }
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.

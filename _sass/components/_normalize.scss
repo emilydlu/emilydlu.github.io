@@ -45,6 +45,12 @@ section,
 summary {
   display: block;
 }
+/**
+ * Page header display
+ */
+ .page-title{
+    text-align: center;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
