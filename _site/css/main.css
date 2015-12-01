@@ -166,6 +166,9 @@ pre {
 .wrap:before {
   display: table; }
 
+.page-title {
+  text-align: center; }
+
 .intro {
   width: 51%;
   float: left;
