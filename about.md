@@ -1,5 +1,9 @@
-| layout | title |
-|--------|-------|
-|  pos   | About |
+---
+layout: post
+title: About
+---
 
-Hi I'm Emily. I'm a junior at [Boston College](https://bc.edu) Boston College</a> studying computer science. I interned at [Wayfair](http://wayfair.com) last summer.  I enjoy drawing and playing tennis, and I'm always looking to [learn](http://github.com/emilydlu) Wanna talk? Feel free to reach out!
+<figure>
+  <img alt="Emily Lu" src="assets/images/IMG_1934.jpg"/>
+</figure>
+Emily is a full-time software engineer and part-time aspiring artist. Occasionally she writes things, though she does not consider herself a writer. Questions? emilydlu@gmail.com.
