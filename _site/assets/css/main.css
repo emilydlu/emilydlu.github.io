@@ -357,6 +357,11 @@ figcaption {
   padding: 0 2em;
   text-align: center; }
 
+#social img {
+  height: 24px;
+  width: 24px;
+  padding-bottom: 2em; }
+
 .skip-navigation {
   background: #ffffff;
   border: 1px dashed transparent;
