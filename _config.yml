@@ -22,7 +22,7 @@ url: "https://emilydlu.github.io" # the base hostname & protocol for your site, 
 # icon: /assets/images/icon-512.png
 twitter_username: LUmos22
 github_username:  emilydlu
-theme: hitchens-theme                     
+remote_theme: hitchens-theme                     
 # Build settings
 markdown: kramdown
 hide_search: true
