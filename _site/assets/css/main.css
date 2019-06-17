@@ -290,6 +290,9 @@ blockquote.epigraph {
 small {
   font-size: .75em; }
 
+less_small {
+  font-size: .9em; }
+
 p > cite {
   display: block;
   text-align: right; }
