@@ -4,7 +4,6 @@ title: Portfolio
 ---
 <h6>Selected works</h6>
 <img alt="Emily Lu" src="assets/images/backyard.jpg"/>
-<img alt="Emily Lu" src="assets/images/boot.jpg"/>
 <img alt="Emily Lu" src="assets/images/DarkProfile.jpg"/>
 <img alt="Emily Lu" src="assets/images/face.jpg"/>
 <img alt="Emily Lu" src="assets/images/gated.jpg"/>
@@ -12,9 +11,7 @@ title: Portfolio
 <img alt="Emily Lu" src="assets/images/myhome.jpg"/>
 <img alt="Emily Lu" src="assets/images/Nanners.jpg"/>
 <img alt="Emily Lu" src="assets/images/nudestanding.jpg"/>
-<img alt="Emily Lu" src="assets/images/pastelmountains.jpg"/>
 <img alt="Emily Lu" src="assets/images/stilllife.jpg"/>
-<img alt="Emily Lu" src="assets/images/upperbust.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorbarn.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorfence.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorforest.jpg"/>
