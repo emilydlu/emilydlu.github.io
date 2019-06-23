@@ -11,7 +11,6 @@ title: Portfolio
 <img alt="Emily Lu" src="assets/images/myhome.jpg"/>
 <img alt="Emily Lu" src="assets/images/Nanners.jpg"/>
 <img alt="Emily Lu" src="assets/images/nudestanding.jpg"/>
-<img alt="Emily Lu" src="assets/images/stilllife.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorbarn.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorfence.jpg"/>
 <img alt="Emily Lu" src="assets/images/watercolorforest.jpg"/>
