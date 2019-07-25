@@ -26,7 +26,7 @@ remote_theme: hitchens-theme
 # Build settings
 markdown: kramdown
 hide_search: true
-# hide_credits: true
+hide_credits: true
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

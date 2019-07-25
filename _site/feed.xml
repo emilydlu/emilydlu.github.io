@@ -5,9 +5,32 @@
     <description>An inarguably well-designed Jekyll theme.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Jul 2019 11:49:35 -0700</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2019 11:49:35 -0700</lastBuildDate>
+    <pubDate>Thu, 25 Jul 2019 10:54:11 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Jul 2019 10:54:11 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      
+        <item>
+          
+            <title>a new city</title>
+          
+          <author>emilydlu@gmail.com (Emily Lu)</author>
+          <description>
+            &lt;p&gt;Moving to a new city&lt;/p&gt;
+
+&lt;!-- excerpt_separator --&gt;
+&lt;p&gt;When you move to a new city, the first neighborhood you live in has a special hold on you. In Boston, it was Prudential / Copley. And in SF, it’s the Mission. The Mission is unique in that it feels nostalgic even as you live there in the present.&lt;/p&gt;
+
+          </description>
+          <pubDate>Wed, 17 Jul 2019 00:00:00 -0700</pubDate>
+          <link>http://localhost:4000/opinion/2019/07/17/not-all-posts.html</link>
+          <guid isPermaLink="true">http://localhost:4000/opinion/2019/07/17/not-all-posts.html</guid>
+          
+          
+          <category>opinion</category>
+          
+        </item>
+      
     
       
         <item>
