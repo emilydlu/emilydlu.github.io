@@ -273,7 +273,8 @@ strong {
   font-weight: bold; }
 
 a {
-  color: #0b0404; }
+  color: #0b0404;
+  outline: none !important; }
 
 a:focus {
   outline: 1px dashed #0b0404; }
@@ -363,7 +364,14 @@ figcaption {
 #social img {
   height: 18px;
   width: 18px;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+  display: inline-flex;
+  padding-left: 0.25em; }
+
+.container {
+  display: flex;
+  text-align: center;
+  display: inherit; }
 
 .skip-navigation {
   background: #ffffff;

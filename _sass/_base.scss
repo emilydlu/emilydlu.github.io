@@ -54,6 +54,7 @@ strong {
 
 a {
   color: $text-color;
+  outline: none !important;
 }
 
 a:focus {
@@ -152,6 +153,14 @@ figcaption {
   height: 18px;
   width: 18px;
   padding-bottom: 2em;
+  display: inline-flex; 
+  padding-left: 0.25em;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  display: inherit;
 }
 
 .skip-navigation {
