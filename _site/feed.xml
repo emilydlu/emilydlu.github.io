@@ -5,8 +5,8 @@
     <description>An inarguably well-designed Jekyll theme.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Aug 2019 22:46:25 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2019 22:46:25 -0700</lastBuildDate>
+    <pubDate>Fri, 02 Aug 2019 08:41:45 -0700</pubDate>
+    <lastBuildDate>Fri, 02 Aug 2019 08:41:45 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       
@@ -18,7 +18,7 @@
           <description>
             &lt;ol&gt;
   &lt;li&gt;be more &lt;a href=&quot;http://emilydlu.com/portfolio&quot;&gt;creative&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;get a library card and &lt;a href=&quot;http://emilydlu.com/books&quot;&gt;use&lt;/a&gt; it&lt;/li&gt;
+  &lt;li&gt;get a library card and &lt;a href=&quot;http://emilydlu.com/read&quot;&gt;use&lt;/a&gt; it&lt;/li&gt;
   &lt;li&gt;explore neighborhoods outside of the BART line&lt;/li&gt;
   &lt;li&gt;meet more creative + non-tech people :)&lt;/li&gt;
   &lt;li&gt;abandon preconceived notions of successs&lt;/li&gt;
@@ -28,6 +28,38 @@
           <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
           <link>http://localhost:4000/opinion/2019/01/01/goals.html</link>
           <guid isPermaLink="true">http://localhost:4000/opinion/2019/01/01/goals.html</guid>
+          
+          
+          <category>opinion</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>what i've read this year</title>
+          
+          <author>emilydlu@gmail.com (Emily Lu)</author>
+          <description>
+            &lt;ol&gt;
+  &lt;li&gt;Pachinko -  Min Jin Lee&lt;/li&gt;
+  &lt;li&gt;Little Fires Everywhere - Celeste Ng&lt;/li&gt;
+  &lt;li&gt;Normal People - Sally Rooney&lt;/li&gt;
+  &lt;li&gt;Conversations With Friends - Sally Rooney&lt;/li&gt;
+  &lt;li&gt;A Giacometti Portrait - James Lord&lt;/li&gt;
+  &lt;li&gt;The Sympathizer - Viet Thanh Nguyen&lt;/li&gt;
+  &lt;li&gt;The Leavers - Lisa Ko&lt;/li&gt;
+  &lt;li&gt;The Incendiaries - R.O. Kwon&lt;/li&gt;
+  &lt;li&gt;On Earth We’re Briefly Gorgeous - Ocean Vuong&lt;/li&gt;
+  &lt;li&gt;Effective Java - Joshua Bloch&lt;/li&gt;
+&lt;/ol&gt;
+
+
+          </description>
+          <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+          <link>http://localhost:4000/opinion/2019/01/01/books.html</link>
+          <guid isPermaLink="true">http://localhost:4000/opinion/2019/01/01/books.html</guid>
           
           
           <category>opinion</category>

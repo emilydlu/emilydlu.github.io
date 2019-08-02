@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Portfolio
 ---
 <h6>Selected works</h6>
 <img alt="Emily Lu" src="assets/images/cairns.jpg"/>

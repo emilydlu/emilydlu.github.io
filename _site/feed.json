@@ -16,8 +16,25 @@
             "id": "http://localhost:4000/opinion/2019/01/01/goals.html",
             "title": "2019 goals",
             "content_text": "\n  be more creative\n  get a library card and use it\n  explore neighborhoods outside of the BART line\n  meet more creative + non-tech people :)\n  abandon preconceived notions of successs\n\n",
-            "content_html": "<ol>\n  <li>be more <a href=\"http://emilydlu.com/portfolio\">creative</a></li>\n  <li>get a library card and <a href=\"http://emilydlu.com/books\">use</a> it</li>\n  <li>explore neighborhoods outside of the BART line</li>\n  <li>meet more creative + non-tech people :)</li>\n  <li>abandon preconceived notions of successs</li>\n</ol>\n",
+            "content_html": "<ol>\n  <li>be more <a href=\"http://emilydlu.com/portfolio\">creative</a></li>\n  <li>get a library card and <a href=\"http://emilydlu.com/read\">use</a> it</li>\n  <li>explore neighborhoods outside of the BART line</li>\n  <li>meet more creative + non-tech people :)</li>\n  <li>abandon preconceived notions of successs</li>\n</ol>\n",
             "url": "http://localhost:4000/opinion/2019/01/01/goals.html",
+            "date_published": "2019-01-01T00:00:00-08:00",
+            "date_modified": "2019-01-01T00:00:00-08:00",
+            "author": {
+                "name": ""
+            }
+        },
+        
+    
+      
+        
+        
+        {
+            "id": "http://localhost:4000/opinion/2019/01/01/books.html",
+            "title": "what i've read this year",
+            "content_text": "\n  Pachinko -  Min Jin Lee\n  Little Fires Everywhere - Celeste Ng\n  Normal People - Sally Rooney\n  Conversations With Friends - Sally Rooney\n  A Giacometti Portrait - James Lord\n  The Sympathizer - Viet Thanh Nguyen\n  The Leavers - Lisa Ko\n  The Incendiaries - R.O. Kwon\n  On Earth We’re Briefly Gorgeous - Ocean Vuong\n  Effective Java - Joshua Bloch\n\n\n",
+            "content_html": "<ol>\n  <li>Pachinko -  Min Jin Lee</li>\n  <li>Little Fires Everywhere - Celeste Ng</li>\n  <li>Normal People - Sally Rooney</li>\n  <li>Conversations With Friends - Sally Rooney</li>\n  <li>A Giacometti Portrait - James Lord</li>\n  <li>The Sympathizer - Viet Thanh Nguyen</li>\n  <li>The Leavers - Lisa Ko</li>\n  <li>The Incendiaries - R.O. Kwon</li>\n  <li>On Earth We’re Briefly Gorgeous - Ocean Vuong</li>\n  <li>Effective Java - Joshua Bloch</li>\n</ol>\n\n",
+            "url": "http://localhost:4000/opinion/2019/01/01/books.html",
             "date_published": "2019-01-01T00:00:00-08:00",
             "date_modified": "2019-01-01T00:00:00-08:00",
             "author": {
