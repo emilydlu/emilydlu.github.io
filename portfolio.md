@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-<h6>Selected works</h6>
+<h6>selected works</h6>
 <img alt="Emily Lu" src="assets/images/cairns.jpg"/>
 <img alt="Emily Lu" src="assets/images/backyard.jpg"/>
 <img alt="Emily Lu" src="assets/images/DarkProfile.jpg"/>
