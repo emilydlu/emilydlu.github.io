@@ -15,8 +15,8 @@
         {
             "id": "http://localhost:4000/opinion/2019/08/01/goals.html",
             "title": "2019 goals",
-            "content_text": "\n  draw more\n  get a library card + read\n  explore neighborhoods outside of the BART line\n  meet more creative + non-tech people :)\n  abandon preconceived notions of successs\n\n",
-            "content_html": "<ol>\n  <li><a href=\"http://emilydlu.com/portfolio\">draw</a> more</li>\n  <li>get a library card + <a href=\"http://emilydlu.com/books\">read</a></li>\n  <li>explore neighborhoods outside of the BART line</li>\n  <li>meet more creative + non-tech people :)</li>\n  <li>abandon preconceived notions of successs</li>\n</ol>\n",
+            "content_text": "\n  draw more\n  get a library card and use it\n  explore neighborhoods outside of the BART line\n  meet more creative + non-tech people :)\n  abandon preconceived notions of successs\n\n",
+            "content_html": "<ol>\n  <li><a href=\"http://emilydlu.com/portfolio\">draw</a> more</li>\n  <li>get a library card and <a href=\"http://emilydlu.com/books\">use</a> it</li>\n  <li>explore neighborhoods outside of the BART line</li>\n  <li>meet more creative + non-tech people :)</li>\n  <li>abandon preconceived notions of successs</li>\n</ol>\n",
             "url": "http://localhost:4000/opinion/2019/08/01/goals.html",
             "date_published": "2019-08-01T00:00:00-07:00",
             "date_modified": "2019-08-01T00:00:00-07:00",
