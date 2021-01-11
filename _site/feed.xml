@@ -5,8 +5,8 @@
     <description>An inarguably well-designed Jekyll theme.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed/index.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Aug 2019 15:46:30 -0700</pubDate>
-    <lastBuildDate>Mon, 05 Aug 2019 15:46:30 -0700</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2021 00:36:23 -0500</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2021 00:36:23 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       
@@ -25,7 +25,7 @@
 &lt;/ol&gt;
 
           </description>
-          <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+          <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
           <link>http://localhost:4000/opinion/2019/01/01/goals.html</link>
           <guid isPermaLink="true">http://localhost:4000/opinion/2019/01/01/goals.html</guid>
           
@@ -57,7 +57,7 @@
 
 
           </description>
-          <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+          <pubDate>Tue, 01 Jan 2019 00:00:00 -0500</pubDate>
           <link>http://localhost:4000/opinion/2019/01/01/books.html</link>
           <guid isPermaLink="true">http://localhost:4000/opinion/2019/01/01/books.html</guid>
           

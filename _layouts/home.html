@@ -2,29 +2,6 @@
 layout: default
 ---
 
-{% if site.data.menu and site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include menu.html %}
-{% elsif site.paginate and site.paginate_path and paginator.page > 1 %}
-  {% include back-link.html %}
-{% else %}
-  <header class="site-masthead">
-    {% include menu.html %}
-    {% if site.title %}
-      <h1></h1>
-Emily is a full-time software engineer and part-time aspiring artist. She doesn't believe in imposter syndrome. <a href="http://emilydlu.com/opinion/2019/01/01/goals.html">Here</a>'s what her 2019 looks like.
 
-      
-    {% endif %}
-    {% if site.title %}
-      <h2>
-      </h2>
-    {% endif %}
-  </header>
-{% endif %}
 
-<div class="container"> 
-<div id="social"> 
-  <a href="https://www.instagram.com/emilydlu_art/"><img src="assets/images/instagram.png" alt="instagram"></a>
-  <a href="https://twitter.com/lumos22"><img src="assets/images/icons8-twitter-24.png" alt="Twitter"></a>
-</div>
-</div>
+{{content}}
